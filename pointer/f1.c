@@ -6,6 +6,9 @@ int main()
  int x=5;
  int *p=&x; // p will have add of x.
  
+ // or int *p
+//  p=&a;
+ 
  printf("the vlue of x is: %d\n",x);
  printf("the vlue of x is: %d\n",*(&x));
  printf("the vlue of x is: %d\n",*p);
