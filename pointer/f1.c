@@ -14,6 +14,10 @@ int main()
  printf("the vlue of x is: %d\n",x);
  printf("the vlue of x is: %d\n",*p);
  
+ printf("the add of p is:%p\n",&p);
+ printf("the value of p is:%p\n",*(&p));
+
+ 
 
  
     return 0;
