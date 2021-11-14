@@ -52,3 +52,42 @@ int main()
 }
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#include<stdio.h>
+
+int main()
+{
+  char str[]="arvind";
+  char *p=str;
+  
+  // p >> adress
+ // *p >> value
+  
+  while(*p!='\0')
+  {
+      printf("%c",*p);
+      p++; // every time we +1 the address it point next char element
+  }
+  
+
+    return 0;
+}
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++ OR +++++++++++++++++++++++++++++++++
+
+
+#include<stdio.h>
+
+int main()
+{
+  char str[]="arvind";
+  int i=0;
+  while(str[i]!='\0')
+  {
+      printf("%c",str[i]);
+      i++;
+  }
+  
+  return 0;
+  
+}
