@@ -22,7 +22,7 @@ int main()
 
      for(int i=0;i<3;i++)
     {
-        printf("element %d is %d\n",i,ptr[i]);  // print up to 6 element
+        printf("element %d is %d\n",i,ptr[i]);  // print up to 3 element
     }
     
 
@@ -49,7 +49,7 @@ int main()
 
      for(int i=0;i<3;i++)
     {
-        printf("element %d is %d\n",i,ptr[i]);  // print up to 6 element
+        printf("element %d is %d\n",i,ptr[i]);  // print up to 3 element
     }
     
     free(ptr);
