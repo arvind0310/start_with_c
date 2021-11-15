@@ -25,4 +25,5 @@ int main()
     return 0;
 }
 
+
 // >>> automatically allocate the given space to : 0
