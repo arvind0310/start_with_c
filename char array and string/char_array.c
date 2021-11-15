@@ -207,3 +207,31 @@ print(str);
 return 0;
 }
 
+//+++++++++++++++++++++++++++++++++++++ OR +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+#include <stdio.h>
+#include <string.h>
+
+
+void print(char *str)    // like char *str= str
+                          // print(str) >>>> char *ptr =str >> void print(char *ptr)
+{
+    
+    while(*str!='\0')
+    {
+        printf("%c",*str);
+        str++;
+    }
+}
+
+int main(){
+    
+char str[]="arvind";
+
+print(str);
+
+
+return 0;
+}
+
