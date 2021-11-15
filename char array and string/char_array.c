@@ -156,4 +156,54 @@ int main () {
    return(0);
 }
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void print(char *str)   // or >> /void print(char str[])
+{
+    int i=0;
+    while(str[i]!='\0')
+    {
+        printf("%c",str[i]);
+        i++;
+    }
+}
+
+int main(){
+    
+char str[]="arvind";
+print(str);
+
+
+return 0;
+}
+//+++++++++++++++++++++++++++++++++ OR +++++++++++++++++++++++++++++++++++++++++++++
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+void print(char str[])
+{
+    int i=0;
+    while(str[i]!='\0')
+    {
+        printf("%c",str[i]);
+        i++;
+    }
+}
+
+int main(){
+    
+char str[]="arvind";
+print(str);
+
+
+return 0;
+}
 
