@@ -19,7 +19,7 @@ int main()
  printf("the add of p is:%p\n",&p);
  printf("the value of p is:%p\n",*(&p));
 
- 
+
     return 0;
 }
 
